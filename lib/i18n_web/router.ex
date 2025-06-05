@@ -8,13 +8,15 @@ defmodule I18nWeb.Router do
     plug :put_root_layout, html: {I18nWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+
+    plug I18nWeb.Plugs.Locale
   end
 
   pipeline :api do
     plug :accepts, ["json"]
   end
 
-  scope "/", I18nWeb do
+  scope "/:locale", I18nWeb do
     pipe_through :browser
 
     get "/", PageController, :home

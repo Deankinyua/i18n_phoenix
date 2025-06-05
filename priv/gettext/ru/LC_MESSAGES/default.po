@@ -54,7 +54,7 @@ msgstr ""
 #: lib/i18n_web/controllers/page_html/home.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Welcome to %{name}!"
-msgstr ""
+msgstr "Assume we have said Welcome to %{name} in Russian"
 
 #: lib/i18n_web/components/core_components.ex:76
 #: lib/i18n_web/components/core_components.ex:130
