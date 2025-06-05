@@ -18,6 +18,7 @@ defmodule I18nWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/example", ExampleLive.Index, :index
   end
 
   # Other scopes may use custom stacks.
