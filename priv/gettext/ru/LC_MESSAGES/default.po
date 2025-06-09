@@ -31,11 +31,6 @@ msgstr ""
 msgid "Hang in there while we get back on track"
 msgstr ""
 
-#: lib/i18n_web/live/example/index.ex:12
-#, elixir-autogen, elixir-format
-msgid "Only one difference when it comes to LiveViews"
-msgstr ""
-
 #: lib/i18n_web/components/core_components.ex:167
 #, elixir-autogen, elixir-format
 msgid "Something went wrong!"
@@ -61,3 +56,8 @@ msgstr "Assume we have said Welcome to %{name} in Russian"
 #, elixir-autogen, elixir-format
 msgid "close"
 msgstr ""
+
+#: lib/i18n_web/live/example/index.ex:12
+#, elixir-autogen, elixir-format
+msgid "Hello World"
+msgstr "Привет, мир!"
